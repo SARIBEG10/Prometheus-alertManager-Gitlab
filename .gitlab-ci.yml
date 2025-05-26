@@ -1,0 +1,23 @@
+stages:
+   - build
+   - test
+   - deploy
+build_job:
+   stage: build
+   image: docker:latest
+   script:
+     - docker build -t myapp ./app
+test_job:
+    stage: test
+    image: python:3.10
+    script:
+      - pip install -r ./app/requirements.txt
+      - pytest ./app/apptest.py
+deploy_job:
+   stage: deploy
+   image: docker:latest
+   script:
+     - echo "Deployin Container"
+     - docker login -u "NEXUS_USERNAME" -p "NEXUS_PASSWORD"
+     - docker tag myapp "NEXUS_USERNAME"/myapp:latest
+     - docker push "NEXUS_USERNAME"/myapp:latest
