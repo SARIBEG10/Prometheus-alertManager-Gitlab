@@ -2,7 +2,7 @@ global:
   smtp_smarthost: 'smtp.gmail.com:587'
   smtp_from: 'sfarmanian@gmail.com'
   smtp_auth_username: 'sfarmanian@gmail.com'
-  smtp_auth_password: 'SariBeg-137216'
+  smtp_auth_password: '****'
 
 route:
   receiver: email-notifications
