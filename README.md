@@ -1,5 +1,5 @@
 # Prometheus + AlertManager + Gitlab + Nexus + Flask Dockerized App
-##  Dockerized  Flask App By Prometheus Monitoring Tool
+##  Dockerized  Flask App  Monitored By Prometheus
 
 ***STEPS:***
 
