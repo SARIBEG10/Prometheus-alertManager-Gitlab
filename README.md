@@ -17,3 +17,6 @@
 10. _Create_ **.gitlab-ci.yml for pipeline** 
 > [!NOTE]
 > **Instead of Docker Public Registry, Use Nexus Private Registry** [Nexus Installation Guide](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://help.sonatype.com/en/install-nexus-repository.html&ved=2ahUKEwj2ivu7qZSUAxUYSPEDHdLiLPYQFnoECBgQAQ&usg=AOvVaw0QqRvKC0tV6JrFLqWDQtVX)
+
+## Project Diagram
+![diagram](https://github.com/SARIBEG10/Prometheus-alertManager-Gitlab/blob/main/Docker-Compose.drawio.svg)
